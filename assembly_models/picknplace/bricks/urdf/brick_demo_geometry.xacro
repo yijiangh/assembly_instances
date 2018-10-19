@@ -1,17 +1,16 @@
-﻿<?xml version="1.0" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro">
 	<xacro:macro name="brick_demo_geometry" params="prefix">
 		<link name="${prefix}base_link" />
 		<link name="${prefix}pick_element_0">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_0.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_0.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_0.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_0.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -23,12 +22,12 @@
 		<link name="${prefix}place_element_0">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_0.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_0.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_0.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_0.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -40,12 +39,12 @@
 		<link name="${prefix}pick_element_1">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_1.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_1.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_1.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_1.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -57,12 +56,12 @@
 		<link name="${prefix}place_element_1">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_1.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_1.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_1.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_1.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -74,12 +73,12 @@
 		<link name="${prefix}pick_element_2">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_2.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_2.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_2.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_2.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -91,12 +90,12 @@
 		<link name="${prefix}place_element_2">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_2.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_2.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_2.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_2.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -108,12 +107,12 @@
 		<link name="${prefix}pick_element_3">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_3.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_3.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_3.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_3.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -125,12 +124,12 @@
 		<link name="${prefix}place_element_3">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_3.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_3.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_3.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_3.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -142,12 +141,12 @@
 		<link name="${prefix}pick_element_4">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_4.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_4.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_4.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_4.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -159,12 +158,12 @@
 		<link name="${prefix}place_element_4">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_4.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_4.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_4.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_4.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -176,12 +175,12 @@
 		<link name="${prefix}pick_element_5">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_5.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_5.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_5.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_5.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -193,12 +192,12 @@
 		<link name="${prefix}place_element_5">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_5.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_5.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_5.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_5.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -210,12 +209,12 @@
 		<link name="${prefix}pick_element_6">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_6.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_6.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_6.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_6.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -227,12 +226,12 @@
 		<link name="${prefix}place_element_6">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_6.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_6.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_6.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_6.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -244,12 +243,12 @@
 		<link name="${prefix}pick_element_7">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_7.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_7.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_7.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_7.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -261,12 +260,12 @@
 		<link name="${prefix}place_element_7">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_7.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_7.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_7.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_7.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -278,12 +277,12 @@
 		<link name="${prefix}pick_element_8">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_8.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_8.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_8.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_8.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -295,12 +294,12 @@
 		<link name="${prefix}place_element_8">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_8.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_8.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_8.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_8.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -312,12 +311,12 @@
 		<link name="${prefix}pick_element_9">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_9.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_9.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_9.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_9.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -329,12 +328,12 @@
 		<link name="${prefix}place_element_9">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_9.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_9.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_9.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_9.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -346,12 +345,12 @@
 		<link name="${prefix}pick_element_10">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_10.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_10.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_10.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_10.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -363,12 +362,12 @@
 		<link name="${prefix}place_element_10">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_10.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_10.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_10.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_10.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -380,12 +379,12 @@
 		<link name="${prefix}pick_element_11">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_11.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_11.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_11.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_pick_11.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -397,12 +396,12 @@
 		<link name="${prefix}place_element_11">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_11.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_11.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_11.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/element_place_11.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
@@ -414,18 +413,222 @@
 		<link name="${prefix}pick_support_object_0">
 			<visual>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/support_place_table.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/support_place_table.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</visual>
 			<collision>
 				<geometry>
-					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/support_place_table.stl" scale="0.001 0.001 0.001" />
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/support_place_table.obj" scale="0.001 0.001 0.001" />
 				</geometry>
 			</collision>
 		</link>
 		<joint name="${prefix}base2pick_support_object_0" type="fixed">
 			<parent link="${prefix}base_link" />
 			<child link="${prefix}pick_support_object_0" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_0">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_0.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_0.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_0" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_0" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_1">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_1.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_1.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_1" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_1" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_2">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_4.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_4.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_2" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_2" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_3">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_2.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_2.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_3" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_3" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_4">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_5.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_5.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_4" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_4" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_5">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_3.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_3.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_5" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_5" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_6">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_6.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_6.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_6" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_6" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_7">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_7.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_7.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_7" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_7" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_8">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_8.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_8.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_8" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_8" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_9">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_9.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_9.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_9" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_9" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_10">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_10.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_10.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_10" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_10" />
+			<origin xyz="0 0 0" rpy="0 0 0" />
+		</joint>
+		<link name="${prefix}place_support_object_11">
+			<visual>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_11.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</visual>
+			<collision>
+				<geometry>
+					<mesh filename="$(find assembly-instances)/assembly_models/picknplace/bricks/meshes/collision/pick_left_over_bricks_11.obj" scale="0.001 0.001 0.001" />
+				</geometry>
+			</collision>
+		</link>
+		<joint name="${prefix}base2place_support_object_11" type="fixed">
+			<parent link="${prefix}base_link" />
+			<child link="${prefix}place_support_object_11" />
 			<origin xyz="0 0 0" rpy="0 0 0" />
 		</joint>
 	</xacro:macro>
