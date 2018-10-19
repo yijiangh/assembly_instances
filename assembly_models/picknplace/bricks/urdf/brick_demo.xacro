@@ -1,11 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" ?>
 <robot name="brick_demo" xmlns:xacro="http://wiki.ros.org/xacro">
+
 	<xacro:include filename="$(find assembly-instances)/assembly_models/picknplace/bricks/urdf/brick_demo_geometry.xacro" />
+
 	<xacro:brick_demo_geometry prefix="ws_" />
+
 	<link name="base_link" />
+
 	<joint name="world2workspace_geo" type="fixed">
 		<parent link="base_link" />
 		<child link="ws_base_link" />
 		<origin xyz="0 0 0" rpy="0 0 0" />
 	</joint>
+
 </robot>
