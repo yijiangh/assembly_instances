@@ -1,0 +1,6 @@
+[submodule "robots/external_robot_resources/kuka_experimental"]
+	path = robots/external_robot_resources/kuka_experimental
+	url = https://github.com/ros-industrial/kuka_experimental.git
+[submodule "robots/external_robot_resources/abb"]
+	path = robots/external_robot_resources/abb
+	url = https://github.com/ros-industrial/abb
