@@ -1,6 +1,0 @@
-<robot file="eth_rfl.dae">
-  <Manipulator name="eth_rfl">
-    <base>gantry_robot_mount</base>
-    <effector>robot_tool0</effector>
-  </Manipulator>
-</robot>

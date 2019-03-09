@@ -1,6 +1,0 @@
-<robot file="eth_rfl_fixed-xz.dae">
-  <Manipulator name="eth_rfl_fixed-xz">
-    <base>gantry_y_bridge</base>
-    <effector>robot_tool0</effector>
-  </Manipulator>
-</robot>
