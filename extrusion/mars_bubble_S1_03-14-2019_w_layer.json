@@ -2,6 +2,8 @@
   "assembly_type": "extrusion",
   "model_type": "spatial_frame",
   "unit": "millimeter",
+  "node_num": 97,
+  "element_num": 225,
   "base_frame_in_rob_base": {
     "Origin": {
       "X": 600.0,
@@ -817,1498 +819,1498 @@
         0,
         11
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         1,
         11
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         2,
         1
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         3,
         2
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         4,
         3
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         5,
         3
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         5,
         8
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         6,
         8
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         1,
         0
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         3,
         1
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         7,
         0
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         7,
         1
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         7,
         12
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         8,
         3
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         8,
         7
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         9,
         7
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         10,
         7
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         10,
         8
       ],
-      "layer_id": 0
+      "layer_id": 9
     },
     {
       "end_node_ids": [
         6,
         22
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         5,
         22
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         11,
         24
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         3,
         22
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         8,
         22
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         1,
         24
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         7,
         21
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         12,
         0
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         9,
         12
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         10,
         9
       ],
-      "layer_id": 0
+      "layer_id": 8
     },
     {
       "end_node_ids": [
         13,
         23
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         11,
         34
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         11,
         25
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         11,
         33
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         14,
         19
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         12,
         21
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         9,
         19
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         10,
         20
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         0,
         23
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         0,
         25
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         15,
         9
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         6,
         10
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         16,
         9
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         16,
         10
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         17,
         10
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         13,
         0
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         12,
         13
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         14,
         12
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         9,
         14
       ],
-      "layer_id": 0
+      "layer_id": 7
     },
     {
       "end_node_ids": [
         15,
         19
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         16,
         20
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         18,
         56
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         4,
         60
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         2,
         60
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         19,
         79
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         20,
         79
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         21,
         80
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         22,
         80
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         23,
         79
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         24,
         80
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         25,
         34
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         26,
         25
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         13,
         26
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         2,
         33
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         27,
         13
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         4,
         2
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         14,
         44
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         28,
         4
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         5,
         4
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         5,
         28
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         6,
         5
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         29,
         5
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         30,
         6
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         31,
         16
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         18,
         6
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         17,
         16
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         17,
         31
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         17,
         18
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         15,
         14
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         16,
         15
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         14,
         13
       ],
-      "layer_id": 0
+      "layer_id": 6
     },
     {
       "end_node_ids": [
         32,
         28
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         26,
         61
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         17,
         56
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         30,
         56
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         29,
         35
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         32,
         35
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         25,
         55
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         33,
         59
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         34,
         59
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         35,
         81
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         36,
         34
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         36,
         25
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         37,
         34
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         33,
         37
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         38,
         25
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         26,
         38
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         39,
         33
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         40,
         26
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         41,
         2
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         28,
         45
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         29,
         32
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         30,
         29
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         31,
         50
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         42,
         17
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         43,
         30
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         43,
         17
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         44,
         58
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         31,
         57
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         28,
         35
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         44,
         27
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         45,
         4
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         46,
         44
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         15,
         46
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         47,
         15
       ],
-      "layer_id": 0
+      "layer_id": 5
     },
     {
       "end_node_ids": [
         48,
         58
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         27,
         58
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         43,
         42
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         43,
         49
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         49,
         29
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         50,
         47
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         29,
         51
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         47,
         46
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         51,
         32
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         51,
         45
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         46,
         48
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         45,
         41
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         48,
         27
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         27,
         40
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         41,
         39
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         40,
         52
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         40,
         53
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         52,
         53
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         52,
         38
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         53,
         38
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         38,
         62
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         37,
         36
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         54,
         80
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         54,
         81
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         54,
         79
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         55,
         82
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         56,
         81
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         57,
         79
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         58,
         79
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         59,
         80
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         60,
         80
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         61,
         82
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         39,
         59
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         41,
         59
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         45,
         60
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         50,
         57
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         62,
         55
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         36,
         55
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         43,
         56
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         47,
         57
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         46,
         58
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         40,
         61
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         53,
         61
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         38,
         61
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         48,
         52
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         62,
         36
       ],
-      "layer_id": 0
+      "layer_id": 4
     },
     {
       "end_node_ids": [
         52,
         65
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         37,
         77
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         52,
         78
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         42,
         74
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         49,
         75
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         51,
         75
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         63,
         37
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         64,
         36
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         64,
         37
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         64,
         62
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         39,
         63
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         65,
         62
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         66,
         39
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         41,
         66
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         67,
         48
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         68,
         45
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         69,
         48
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         51,
         68
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         70,
         51
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         50,
         69
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         50,
         71
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         49,
         70
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         49,
         72
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         42,
         71
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         42,
         72
       ],
-      "layer_id": 0
+      "layer_id": 3
     },
     {
       "end_node_ids": [
         64,
         78
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         65,
         78
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         67,
         73
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         69,
         73
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         71,
         74
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         72,
         75
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         70,
         75
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         68,
         76
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         63,
         77
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         66,
         76
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         73,
         83
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         74,
         83
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         75,
         84
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         76,
         84
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         77,
         84
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         54,
         83
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         54,
         84
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         54,
         85
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         78,
         82
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         54,
         82
       ],
-      "layer_id": 0
+      "layer_id": 2
     },
     {
       "end_node_ids": [
         64,
         63
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         65,
         64
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         66,
         63
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         67,
         65
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         68,
         66
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         69,
         67
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         70,
         68
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         71,
         69
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         72,
         70
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
         72,
         71
       ],
-      "layer_id": 0
+      "layer_id": 1
     },
     {
       "end_node_ids": [
