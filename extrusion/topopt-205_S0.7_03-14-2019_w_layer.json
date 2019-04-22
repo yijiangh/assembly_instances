@@ -2,6 +2,7 @@
   "assembly_type": "extrusion",
   "model_type": "spatial_frame",
   "unit": "millimeter",
+  "dimension": 3,
   "node_num": 89,
   "element_num": 164,
   "base_frame_in_rob_base": {
@@ -34,6 +35,19 @@
       "Z": 1.0
     },
     "IsValid": true
+  },
+  "material_properties": {
+    "_source": "https://www.makeitfrom.com/material-properties/Polylactic-Acid-PLA-Polylactide",
+    "material_name": "PLA",
+    "youngs_modulus": 350,
+    "youngs_modulus_unit": "kN/cm2",
+    "shear_modulus": 240,
+    "shear_modulus_unit": "kN/cm2",
+    "density": 0.000012748,
+    "density_unit": "kN/m3",
+    "poisson_ratio": -0.27083,
+    "radius": 2.5,
+    "radius_unit": "centimeter"
   },
   "node_list": [
     {
