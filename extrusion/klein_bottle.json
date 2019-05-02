@@ -1,0 +1,3221 @@
+{
+  "model_name": "klein_bottle",
+  "assembly_type": "extrusion",
+  "model_type": "3D_frame",
+  "unit": "meter",
+  "generate_time": "05/01/2019 22:28:56",
+  "dimension": 3,
+  "node_num": 120,
+  "element_num": 240,
+  "base_frame_in_rob_base": {
+    "Origin": {
+      "X": 600.0,
+      "Y": 0.0,
+      "Z": 23.5
+    },
+    "OriginX": 600.0,
+    "OriginY": 0.0,
+    "OriginZ": 23.5,
+    "XAxis": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "YAxis": {
+      "X": 0.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "ZAxis": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 1.0
+    },
+    "Normal": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 1.0
+    },
+    "IsValid": true
+  },
+  "material_properties": {
+    "material_name": "PLA-0",
+    "youngs_modulus": 350.0,
+    "youngs_modulus_unit": "kN/cm2",
+    "shear_modulus": 240.0,
+    "shear_modulus_unit": "kN/cm2",
+    "tensile_yeild_stress": 3.6,
+    "tensile_yeild_stress_unit": "kN/cm2",
+    "density": 12.2582,
+    "density_unit": "kN/m3",
+    "poisson_ratio": -0.270833,
+    "radius": 0.15,
+    "radius_unit": "centimeter"
+  },
+  "node_list": [
+    {
+      "point": {
+        "X": -53.290891220258359,
+        "Y": -2.2578995300788129,
+        "Z": 4.95504
+      },
+      "node_id": 0,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -55.874131220258363,
+        "Y": -7.2099395300788132,
+        "Z": 30.33276
+      },
+      "node_id": 1,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -47.858251220258367,
+        "Y": -5.9777795300788128,
+        "Z": 70.551780000000008
+      },
+      "node_id": 2,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -20.845291220258364,
+        "Y": -2.9839595300788129,
+        "Z": 111.35376
+      },
+      "node_id": 3,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 12.044848779741638,
+        "Y": -0.083199530078812756,
+        "Z": 144.87072
+      },
+      "node_id": 4,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 38.61134877974164,
+        "Y": 0.12332046992118723,
+        "Z": 168.98118
+      },
+      "node_id": 5,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 12.050488779741638,
+        "Y": 0.12332046992118723,
+        "Z": 221.2626
+      },
+      "node_id": 6,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -79.28073122025836,
+        "Y": 0.12344046992118723,
+        "Z": 188.21244
+      },
+      "node_id": 7,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -64.700911220258362,
+        "Y": 2.9727804699211871,
+        "Z": 130.33038
+      },
+      "node_id": 8,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 0.36068877974163627,
+        "Y": 0.48500046992118723,
+        "Z": 28.93398
+      },
+      "node_id": 9,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 5.1159287797416368,
+        "Y": 0.15140046992118722,
+        "Z": 10.360199999999999
+      },
+      "node_id": 10,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -31.544191220258362,
+        "Y": -25.411359530078812,
+        "Z": 0.0576
+      },
+      "node_id": 11,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": -34.935391220258367,
+        "Y": -31.454799530078812,
+        "Z": 4.48566
+      },
+      "node_id": 12,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -35.099551220258363,
+        "Y": -35.632299530078811,
+        "Z": 26.765099999999997
+      },
+      "node_id": 13,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -25.590811220258363,
+        "Y": -36.514779530078812,
+        "Z": 59.61618
+      },
+      "node_id": 14,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -2.797291220258364,
+        "Y": -37.159299530078812,
+        "Z": 97.247279999999989
+      },
+      "node_id": 15,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 27.504448779741637,
+        "Y": -37.297839530078811,
+        "Z": 133.20342
+      },
+      "node_id": 16,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 51.849868779741634,
+        "Y": -26.361639530078815,
+        "Z": 163.7997
+      },
+      "node_id": 17,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 55.907968779741644,
+        "Y": -17.818539530078812,
+        "Z": 189.7944
+      },
+      "node_id": 18,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 41.821828779741644,
+        "Y": -16.427379530078813,
+        "Z": 212.0505
+      },
+      "node_id": 19,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 14.226688779741636,
+        "Y": -13.967679530078815,
+        "Z": 228.46277999999998
+      },
+      "node_id": 20,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -11.886031220258364,
+        "Y": -14.095899530078812,
+        "Z": 235.20198
+      },
+      "node_id": 21,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -41.470171220258365,
+        "Y": -13.723359530078813,
+        "Z": 228.65988
+      },
+      "node_id": 22,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -70.93971122025836,
+        "Y": -12.769239530078814,
+        "Z": 211.50414
+      },
+      "node_id": 23,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -86.225551220258382,
+        "Y": -10.995099530078813,
+        "Z": 189.30492
+      },
+      "node_id": 24,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -89.621311220258349,
+        "Y": -12.528099530078812,
+        "Z": 160.69488
+      },
+      "node_id": 25,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -70.684051220258368,
+        "Y": -10.204479530078814,
+        "Z": 126.04656
+      },
+      "node_id": 26,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -41.369371220258365,
+        "Y": -13.649019530078814,
+        "Z": 89.878560000000007
+      },
+      "node_id": 27,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -19.958011220258363,
+        "Y": -13.780539530078814,
+        "Z": 53.94906
+      },
+      "node_id": 28,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -8.8494912202583631,
+        "Y": -17.040579530078812,
+        "Z": 27.20664
+      },
+      "node_id": 29,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -5.7646512202583633,
+        "Y": -19.342479530078815,
+        "Z": 10.151159999999999
+      },
+      "node_id": 30,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -2.6024112202583645,
+        "Y": -24.663879530078813,
+        "Z": 0.01086
+      },
+      "node_id": 31,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": 0.42716877974163481,
+        "Y": -30.421239530078811,
+        "Z": 3.5611800000000002
+      },
+      "node_id": 32,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 3.6622487797416348,
+        "Y": -34.56363953007881,
+        "Z": 19.6431
+      },
+      "node_id": 33,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 12.198688779741637,
+        "Y": -35.981439530078809,
+        "Z": 41.874120000000005
+      },
+      "node_id": 34,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 31.918048779741632,
+        "Y": -37.133739530078813,
+        "Z": 71.66784
+      },
+      "node_id": 35,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 58.617148779741633,
+        "Y": -37.721019530078806,
+        "Z": 109.86894
+      },
+      "node_id": 36,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 77.984968779741621,
+        "Y": -29.368779530078815,
+        "Z": 153.43674000000001
+      },
+      "node_id": 37,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 74.149468779741625,
+        "Y": -18.334719530078811,
+        "Z": 194.34642
+      },
+      "node_id": 38,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 52.870948779741632,
+        "Y": -16.570779530078813,
+        "Z": 225.18594000000002
+      },
+      "node_id": 39,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 18.657568779741631,
+        "Y": -13.967679530078815,
+        "Z": 242.86307999999997
+      },
+      "node_id": 40,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -11.900851220258364,
+        "Y": -14.156259530078813,
+        "Z": 247.81907999999999
+      },
+      "node_id": 41,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -46.164331220258362,
+        "Y": -13.330299530078815,
+        "Z": 243.11195999999998
+      },
+      "node_id": 42,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -82.185631220258358,
+        "Y": -12.040539530078812,
+        "Z": 224.68548
+      },
+      "node_id": 43,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -102.26211122025836,
+        "Y": -10.241619530078813,
+        "Z": 193.60626000000002
+      },
+      "node_id": 44,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -106.29327122025836,
+        "Y": -12.319359530078813,
+        "Z": 155.43498
+      },
+      "node_id": 45,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -83.610751220258379,
+        "Y": -9.9204995300788124,
+        "Z": 116.99712
+      },
+      "node_id": 46,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -54.708451220258361,
+        "Y": -14.615559530078814,
+        "Z": 79.86426
+      },
+      "node_id": 47,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -35.159131220258359,
+        "Y": -16.375479530078813,
+        "Z": 46.614779999999996
+      },
+      "node_id": 48,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -28.928011220258362,
+        "Y": -19.152759530078814,
+        "Z": 23.389680000000002
+      },
+      "node_id": 49,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -28.492111220258366,
+        "Y": -20.600199530078811,
+        "Z": 9.77154
+      },
+      "node_id": 50,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 11.566408779741636,
+        "Y": 0.12332046992118723,
+        "Z": 0.0
+      },
+      "node_id": 51,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": 17.624788779741642,
+        "Y": 0.12332046992118723,
+        "Z": 3.10572
+      },
+      "node_id": 52,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 22.704328779741637,
+        "Y": 0.13202046992118721,
+        "Z": 15.967019999999998
+      },
+      "node_id": 53,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 31.060888779741639,
+        "Y": 0.1533804699211872,
+        "Z": 32.87802
+      },
+      "node_id": 54,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 49.320628779741632,
+        "Y": 0.12332046992118723,
+        "Z": 58.8819
+      },
+      "node_id": 55,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 74.173528779741645,
+        "Y": 0.12332046992118723,
+        "Z": 98.20164
+      },
+      "node_id": 56,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 90.856048779741627,
+        "Y": 0.12332046992118723,
+        "Z": 148.2552
+      },
+      "node_id": 57,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 83.27018877974163,
+        "Y": 0.12332046992118723,
+        "Z": 196.62240000000003
+      },
+      "node_id": 58,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 58.395508779741625,
+        "Y": 0.12332046992118723,
+        "Z": 231.75366000000002
+      },
+      "node_id": 59,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 20.891068779741637,
+        "Y": 0.12332046992118723,
+        "Z": 250.06326
+      },
+      "node_id": 60,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -11.865091220258364,
+        "Y": 0.12332046992118723,
+        "Z": 253.91616000000002
+      },
+      "node_id": 61,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -47.911591220258366,
+        "Y": 0.12332046992118723,
+        "Z": 249.00696
+      },
+      "node_id": 62,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -85.850491220258363,
+        "Y": 0.12332046992118723,
+        "Z": 229.46447999999998
+      },
+      "node_id": 63,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -107.59047122025837,
+        "Y": 0.12332046992118723,
+        "Z": 195.21696000000003
+      },
+      "node_id": 64,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -112.44237122025837,
+        "Y": 0.26414046992118728,
+        "Z": 153.60942
+      },
+      "node_id": 65,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -89.385871220258366,
+        "Y": 3.2244204699211867,
+        "Z": 113.02145999999999
+      },
+      "node_id": 66,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -61.868851220258364,
+        "Y": -0.10155953007881274,
+        "Z": 74.79324
+      },
+      "node_id": 67,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -43.953511220258363,
+        "Y": -2.1243395300788128,
+        "Z": 42.38856
+      },
+      "node_id": 68,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -39.938791220258366,
+        "Y": -2.6466995300788132,
+        "Z": 21.261960000000002
+      },
+      "node_id": 69,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -40.440691220258358,
+        "Y": -1.8824795300788126,
+        "Z": 9.61842
+      },
+      "node_id": 70,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -46.390471220258362,
+        "Y": -1.4744795300788127,
+        "Z": 0.10116
+      },
+      "node_id": 71,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": -2.6025912202583612,
+        "Y": 24.91292046992119,
+        "Z": 0.01074
+      },
+      "node_id": 72,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": 0.42686877974163551,
+        "Y": 30.673160469921186,
+        "Z": 3.56088
+      },
+      "node_id": 73,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 3.6600887797416384,
+        "Y": 34.924880469921192,
+        "Z": 19.64112
+      },
+      "node_id": 74,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 12.194848779741633,
+        "Y": 36.469100469921194,
+        "Z": 41.870580000000004
+      },
+      "node_id": 75,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 31.917868779741639,
+        "Y": 37.381280469921194,
+        "Z": 71.66772
+      },
+      "node_id": 76,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 58.617148779741633,
+        "Y": 37.96772046992119,
+        "Z": 109.86894
+      },
+      "node_id": 77,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 77.984968779741621,
+        "Y": 29.615420469921187,
+        "Z": 153.43674000000001
+      },
+      "node_id": 78,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 74.149468779741625,
+        "Y": 18.581420469921188,
+        "Z": 194.34642
+      },
+      "node_id": 79,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 52.870948779741632,
+        "Y": 16.817480469921186,
+        "Z": 225.18594000000002
+      },
+      "node_id": 80,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 18.657568779741631,
+        "Y": 14.214380469921187,
+        "Z": 242.86307999999997
+      },
+      "node_id": 81,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -11.900851220258364,
+        "Y": 14.402960469921188,
+        "Z": 247.81907999999999
+      },
+      "node_id": 82,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -46.164331220258362,
+        "Y": 13.576940469921187,
+        "Z": 243.11195999999998
+      },
+      "node_id": 83,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -82.185631220258358,
+        "Y": 12.287240469921187,
+        "Z": 224.68548
+      },
+      "node_id": 84,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -102.26211122025836,
+        "Y": 10.488320469921188,
+        "Z": 193.60626000000002
+      },
+      "node_id": 85,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -106.29327122025836,
+        "Y": 12.940460469921186,
+        "Z": 155.43498
+      },
+      "node_id": 86,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -83.609851220258378,
+        "Y": 16.379120469921187,
+        "Z": 116.99712
+      },
+      "node_id": 87,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -55.430491220258361,
+        "Y": 16.537160469921186,
+        "Z": 79.86323999999999
+      },
+      "node_id": 88,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -35.382751220258363,
+        "Y": 14.716280469921188,
+        "Z": 46.614779999999996
+      },
+      "node_id": 89,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -28.956151220258363,
+        "Y": 18.045860469921188,
+        "Z": 23.3877
+      },
+      "node_id": 90,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -28.493431220258365,
+        "Y": 19.724240469921188,
+        "Z": 9.7703400000000009
+      },
+      "node_id": 91,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -31.545391220258363,
+        "Y": 24.976640469921186,
+        "Z": 0.056579999999999991
+      },
+      "node_id": 92,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": -34.937851220258366,
+        "Y": 30.996680469921191,
+        "Z": 4.4833799999999995
+      },
+      "node_id": 93,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -35.128891220258367,
+        "Y": 35.446340469921189,
+        "Z": 26.754959999999997
+      },
+      "node_id": 94,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -25.819051220258363,
+        "Y": 37.831580469921192,
+        "Z": 59.61714
+      },
+      "node_id": 95,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -2.9292912202583636,
+        "Y": 37.35080046992119,
+        "Z": 97.2468
+      },
+      "node_id": 96,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 27.504448779741637,
+        "Y": 37.54448046992119,
+        "Z": 133.20342
+      },
+      "node_id": 97,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 51.849868779741634,
+        "Y": 26.608280469921187,
+        "Z": 163.7997
+      },
+      "node_id": 98,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 55.907968779741644,
+        "Y": 18.065240469921186,
+        "Z": 189.7944
+      },
+      "node_id": 99,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 41.821828779741644,
+        "Y": 16.674020469921189,
+        "Z": 212.0505
+      },
+      "node_id": 100,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 14.226688779741636,
+        "Y": 14.214320469921187,
+        "Z": 228.46277999999998
+      },
+      "node_id": 101,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -11.886031220258364,
+        "Y": 14.342540469921186,
+        "Z": 235.20198
+      },
+      "node_id": 102,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -41.470171220258365,
+        "Y": 13.970060469921187,
+        "Z": 228.65988
+      },
+      "node_id": 103,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -70.93971122025836,
+        "Y": 13.015940469921187,
+        "Z": 211.50414
+      },
+      "node_id": 104,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -86.225551220258382,
+        "Y": 11.241740469921186,
+        "Z": 189.30492
+      },
+      "node_id": 105,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -89.621311220258349,
+        "Y": 13.441460469921189,
+        "Z": 160.69488
+      },
+      "node_id": 106,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -70.694671220258357,
+        "Y": 16.506020469921186,
+        "Z": 126.04656
+      },
+      "node_id": 107,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -41.867611220258361,
+        "Y": 16.438220469921188,
+        "Z": 89.87904
+      },
+      "node_id": 108,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -20.131651220258362,
+        "Y": 14.932940469921185,
+        "Z": 53.94906
+      },
+      "node_id": 109,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -8.8506912202583639,
+        "Y": 17.930660469921186,
+        "Z": 27.2055
+      },
+      "node_id": 110,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 46.787248779741638,
+        "Y": 0.12332046992118723,
+        "Z": 187.51836
+      },
+      "node_id": 111,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -11.811751220258364,
+        "Y": 0.12332046992118723,
+        "Z": 228.81347999999997
+      },
+      "node_id": 112,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -39.009271220258363,
+        "Y": 0.12332046992118723,
+        "Z": 221.97006
+      },
+      "node_id": 113,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -35.896651220258363,
+        "Y": 0.71618046992118733,
+        "Z": 94.6647
+      },
+      "node_id": 114,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": 36.297628779741636,
+        "Y": 0.12332046992118723,
+        "Z": 205.48278
+      },
+      "node_id": 115,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -65.522251220258369,
+        "Y": 0.12332046992118723,
+        "Z": 206.29122
+      },
+      "node_id": 116,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -82.371391220258374,
+        "Y": 0.52790046992118733,
+        "Z": 163.3074
+      },
+      "node_id": 117,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -13.225831220258364,
+        "Y": 0.83012046992118749,
+        "Z": 57.20772
+      },
+      "node_id": 118,
+      "is_grounded": 0,
+      "fixities": []
+    },
+    {
+      "point": {
+        "X": -5.7651912202583624,
+        "Y": 19.728560469921188,
+        "Z": 10.150680000000001
+      },
+      "node_id": 119,
+      "is_grounded": 0,
+      "fixities": []
+    }
+  ],
+  "element_list": [
+    {
+      "end_node_ids": [
+        0,
+        1
+      ],
+      "element_id": 0,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        0,
+        12
+      ],
+      "element_id": 1,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        0,
+        71
+      ],
+      "element_id": 2,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        0,
+        93
+      ],
+      "element_id": 3,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        1,
+        2
+      ],
+      "element_id": 4,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        1,
+        13
+      ],
+      "element_id": 5,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        1,
+        94
+      ],
+      "element_id": 6,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        2,
+        3
+      ],
+      "element_id": 7,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        2,
+        14
+      ],
+      "element_id": 8,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        2,
+        95
+      ],
+      "element_id": 9,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        3,
+        4
+      ],
+      "element_id": 10,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        3,
+        15
+      ],
+      "element_id": 11,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        3,
+        96
+      ],
+      "element_id": 12,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        4,
+        5
+      ],
+      "element_id": 13,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        4,
+        16
+      ],
+      "element_id": 14,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        4,
+        97
+      ],
+      "element_id": 15,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        5,
+        17
+      ],
+      "element_id": 16,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        5,
+        98
+      ],
+      "element_id": 17,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        5,
+        111
+      ],
+      "element_id": 18,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        6,
+        20
+      ],
+      "element_id": 19,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        6,
+        101
+      ],
+      "element_id": 20,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        6,
+        115
+      ],
+      "element_id": 21,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        6,
+        112
+      ],
+      "element_id": 22,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        7,
+        24
+      ],
+      "element_id": 23,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        7,
+        105
+      ],
+      "element_id": 24,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        7,
+        116
+      ],
+      "element_id": 25,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        7,
+        117
+      ],
+      "element_id": 26,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        8,
+        26
+      ],
+      "element_id": 27,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        8,
+        107
+      ],
+      "element_id": 28,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        8,
+        117
+      ],
+      "element_id": 29,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        8,
+        114
+      ],
+      "element_id": 30,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        9,
+        10
+      ],
+      "element_id": 31,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        9,
+        29
+      ],
+      "element_id": 32,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        9,
+        110
+      ],
+      "element_id": 33,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        9,
+        118
+      ],
+      "element_id": 34,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        10,
+        30
+      ],
+      "element_id": 35,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        10,
+        51
+      ],
+      "element_id": 36,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        10,
+        119
+      ],
+      "element_id": 37,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        11,
+        12
+      ],
+      "element_id": 38,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        11,
+        31
+      ],
+      "element_id": 39,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        11,
+        50
+      ],
+      "element_id": 40,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        11,
+        71
+      ],
+      "element_id": 41,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        12,
+        13
+      ],
+      "element_id": 42,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        12,
+        32
+      ],
+      "element_id": 43,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        13,
+        14
+      ],
+      "element_id": 44,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        13,
+        33
+      ],
+      "element_id": 45,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        14,
+        15
+      ],
+      "element_id": 46,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        14,
+        34
+      ],
+      "element_id": 47,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        15,
+        16
+      ],
+      "element_id": 48,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        15,
+        35
+      ],
+      "element_id": 49,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        16,
+        17
+      ],
+      "element_id": 50,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        16,
+        36
+      ],
+      "element_id": 51,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        17,
+        18
+      ],
+      "element_id": 52,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        17,
+        37
+      ],
+      "element_id": 53,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        18,
+        19
+      ],
+      "element_id": 54,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        18,
+        38
+      ],
+      "element_id": 55,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        18,
+        111
+      ],
+      "element_id": 56,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        19,
+        20
+      ],
+      "element_id": 57,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        19,
+        39
+      ],
+      "element_id": 58,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        19,
+        115
+      ],
+      "element_id": 59,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        20,
+        21
+      ],
+      "element_id": 60,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        20,
+        40
+      ],
+      "element_id": 61,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        21,
+        22
+      ],
+      "element_id": 62,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        21,
+        41
+      ],
+      "element_id": 63,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        21,
+        112
+      ],
+      "element_id": 64,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        22,
+        23
+      ],
+      "element_id": 65,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        22,
+        42
+      ],
+      "element_id": 66,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        22,
+        113
+      ],
+      "element_id": 67,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        23,
+        24
+      ],
+      "element_id": 68,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        23,
+        43
+      ],
+      "element_id": 69,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        23,
+        116
+      ],
+      "element_id": 70,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        24,
+        25
+      ],
+      "element_id": 71,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        24,
+        44
+      ],
+      "element_id": 72,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        25,
+        26
+      ],
+      "element_id": 73,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        25,
+        45
+      ],
+      "element_id": 74,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        25,
+        117
+      ],
+      "element_id": 75,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        26,
+        27
+      ],
+      "element_id": 76,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        26,
+        46
+      ],
+      "element_id": 77,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        27,
+        28
+      ],
+      "element_id": 78,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        27,
+        47
+      ],
+      "element_id": 79,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        27,
+        114
+      ],
+      "element_id": 80,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        28,
+        29
+      ],
+      "element_id": 81,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        28,
+        48
+      ],
+      "element_id": 82,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        28,
+        118
+      ],
+      "element_id": 83,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        29,
+        30
+      ],
+      "element_id": 84,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        29,
+        49
+      ],
+      "element_id": 85,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        30,
+        31
+      ],
+      "element_id": 86,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        30,
+        50
+      ],
+      "element_id": 87,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        31,
+        32
+      ],
+      "element_id": 88,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        31,
+        51
+      ],
+      "element_id": 89,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        32,
+        33
+      ],
+      "element_id": 90,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        32,
+        52
+      ],
+      "element_id": 91,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        33,
+        34
+      ],
+      "element_id": 92,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        33,
+        53
+      ],
+      "element_id": 93,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        34,
+        35
+      ],
+      "element_id": 94,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        34,
+        54
+      ],
+      "element_id": 95,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        35,
+        36
+      ],
+      "element_id": 96,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        35,
+        55
+      ],
+      "element_id": 97,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        36,
+        37
+      ],
+      "element_id": 98,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        36,
+        56
+      ],
+      "element_id": 99,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        37,
+        38
+      ],
+      "element_id": 100,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        37,
+        57
+      ],
+      "element_id": 101,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        38,
+        39
+      ],
+      "element_id": 102,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        38,
+        58
+      ],
+      "element_id": 103,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        39,
+        40
+      ],
+      "element_id": 104,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        39,
+        59
+      ],
+      "element_id": 105,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        40,
+        41
+      ],
+      "element_id": 106,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        40,
+        60
+      ],
+      "element_id": 107,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        41,
+        42
+      ],
+      "element_id": 108,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        41,
+        61
+      ],
+      "element_id": 109,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        42,
+        43
+      ],
+      "element_id": 110,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        42,
+        62
+      ],
+      "element_id": 111,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        43,
+        44
+      ],
+      "element_id": 112,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        43,
+        63
+      ],
+      "element_id": 113,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        44,
+        45
+      ],
+      "element_id": 114,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        44,
+        64
+      ],
+      "element_id": 115,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        45,
+        46
+      ],
+      "element_id": 116,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        45,
+        65
+      ],
+      "element_id": 117,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        46,
+        47
+      ],
+      "element_id": 118,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        46,
+        66
+      ],
+      "element_id": 119,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        47,
+        48
+      ],
+      "element_id": 120,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        47,
+        67
+      ],
+      "element_id": 121,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        48,
+        49
+      ],
+      "element_id": 122,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        48,
+        68
+      ],
+      "element_id": 123,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        49,
+        50
+      ],
+      "element_id": 124,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        49,
+        69
+      ],
+      "element_id": 125,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        50,
+        70
+      ],
+      "element_id": 126,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        51,
+        52
+      ],
+      "element_id": 127,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        51,
+        72
+      ],
+      "element_id": 128,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        52,
+        53
+      ],
+      "element_id": 129,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        52,
+        73
+      ],
+      "element_id": 130,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        53,
+        54
+      ],
+      "element_id": 131,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        53,
+        74
+      ],
+      "element_id": 132,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        54,
+        55
+      ],
+      "element_id": 133,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        54,
+        75
+      ],
+      "element_id": 134,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        55,
+        56
+      ],
+      "element_id": 135,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        55,
+        76
+      ],
+      "element_id": 136,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        56,
+        57
+      ],
+      "element_id": 137,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        56,
+        77
+      ],
+      "element_id": 138,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        57,
+        58
+      ],
+      "element_id": 139,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        57,
+        78
+      ],
+      "element_id": 140,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        58,
+        59
+      ],
+      "element_id": 141,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        58,
+        79
+      ],
+      "element_id": 142,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        59,
+        60
+      ],
+      "element_id": 143,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        59,
+        80
+      ],
+      "element_id": 144,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        60,
+        61
+      ],
+      "element_id": 145,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        60,
+        81
+      ],
+      "element_id": 146,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        61,
+        62
+      ],
+      "element_id": 147,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        61,
+        82
+      ],
+      "element_id": 148,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        62,
+        63
+      ],
+      "element_id": 149,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        62,
+        83
+      ],
+      "element_id": 150,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        63,
+        64
+      ],
+      "element_id": 151,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        63,
+        84
+      ],
+      "element_id": 152,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        64,
+        65
+      ],
+      "element_id": 153,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        64,
+        85
+      ],
+      "element_id": 154,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        65,
+        66
+      ],
+      "element_id": 155,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        65,
+        86
+      ],
+      "element_id": 156,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        66,
+        67
+      ],
+      "element_id": 157,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        66,
+        87
+      ],
+      "element_id": 158,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        67,
+        68
+      ],
+      "element_id": 159,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        67,
+        88
+      ],
+      "element_id": 160,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        68,
+        69
+      ],
+      "element_id": 161,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        68,
+        89
+      ],
+      "element_id": 162,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        69,
+        70
+      ],
+      "element_id": 163,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        69,
+        90
+      ],
+      "element_id": 164,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        70,
+        71
+      ],
+      "element_id": 165,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        70,
+        91
+      ],
+      "element_id": 166,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        71,
+        92
+      ],
+      "element_id": 167,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        72,
+        73
+      ],
+      "element_id": 168,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        72,
+        92
+      ],
+      "element_id": 169,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        72,
+        119
+      ],
+      "element_id": 170,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        73,
+        74
+      ],
+      "element_id": 171,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        73,
+        93
+      ],
+      "element_id": 172,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        74,
+        75
+      ],
+      "element_id": 173,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        74,
+        94
+      ],
+      "element_id": 174,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        75,
+        76
+      ],
+      "element_id": 175,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        75,
+        95
+      ],
+      "element_id": 176,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        76,
+        77
+      ],
+      "element_id": 177,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        76,
+        96
+      ],
+      "element_id": 178,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        77,
+        78
+      ],
+      "element_id": 179,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        77,
+        97
+      ],
+      "element_id": 180,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        78,
+        79
+      ],
+      "element_id": 181,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        78,
+        98
+      ],
+      "element_id": 182,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        79,
+        80
+      ],
+      "element_id": 183,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        79,
+        99
+      ],
+      "element_id": 184,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        80,
+        81
+      ],
+      "element_id": 185,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        80,
+        100
+      ],
+      "element_id": 186,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        81,
+        82
+      ],
+      "element_id": 187,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        81,
+        101
+      ],
+      "element_id": 188,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        82,
+        83
+      ],
+      "element_id": 189,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        82,
+        102
+      ],
+      "element_id": 190,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        83,
+        84
+      ],
+      "element_id": 191,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        83,
+        103
+      ],
+      "element_id": 192,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        84,
+        85
+      ],
+      "element_id": 193,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        84,
+        104
+      ],
+      "element_id": 194,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        85,
+        86
+      ],
+      "element_id": 195,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        85,
+        105
+      ],
+      "element_id": 196,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        86,
+        87
+      ],
+      "element_id": 197,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        86,
+        106
+      ],
+      "element_id": 198,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        87,
+        88
+      ],
+      "element_id": 199,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        87,
+        107
+      ],
+      "element_id": 200,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        88,
+        89
+      ],
+      "element_id": 201,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        88,
+        108
+      ],
+      "element_id": 202,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        89,
+        90
+      ],
+      "element_id": 203,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        89,
+        109
+      ],
+      "element_id": 204,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        90,
+        91
+      ],
+      "element_id": 205,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        90,
+        110
+      ],
+      "element_id": 206,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        91,
+        92
+      ],
+      "element_id": 207,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        91,
+        119
+      ],
+      "element_id": 208,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        92,
+        93
+      ],
+      "element_id": 209,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        93,
+        94
+      ],
+      "element_id": 210,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        94,
+        95
+      ],
+      "element_id": 211,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        95,
+        96
+      ],
+      "element_id": 212,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        96,
+        97
+      ],
+      "element_id": 213,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        97,
+        98
+      ],
+      "element_id": 214,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        98,
+        99
+      ],
+      "element_id": 215,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        99,
+        100
+      ],
+      "element_id": 216,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        99,
+        111
+      ],
+      "element_id": 217,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        100,
+        101
+      ],
+      "element_id": 218,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        100,
+        115
+      ],
+      "element_id": 219,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        101,
+        102
+      ],
+      "element_id": 220,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        102,
+        103
+      ],
+      "element_id": 221,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        102,
+        112
+      ],
+      "element_id": 222,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        103,
+        104
+      ],
+      "element_id": 223,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        103,
+        113
+      ],
+      "element_id": 224,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        104,
+        105
+      ],
+      "element_id": 225,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        104,
+        116
+      ],
+      "element_id": 226,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        105,
+        106
+      ],
+      "element_id": 227,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        106,
+        107
+      ],
+      "element_id": 228,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        106,
+        117
+      ],
+      "element_id": 229,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        107,
+        108
+      ],
+      "element_id": 230,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        108,
+        109
+      ],
+      "element_id": 231,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        108,
+        114
+      ],
+      "element_id": 232,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        109,
+        110
+      ],
+      "element_id": 233,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        109,
+        118
+      ],
+      "element_id": 234,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        110,
+        119
+      ],
+      "element_id": 235,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        111,
+        115
+      ],
+      "element_id": 236,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        112,
+        113
+      ],
+      "element_id": 237,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        113,
+        116
+      ],
+      "element_id": 238,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        114,
+        118
+      ],
+      "element_id": 239,
+      "layer_id": 0
+    }
+  ]
+}
