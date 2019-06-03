@@ -2,7 +2,7 @@
   "model_name": "semi_sphere",
   "assembly_type": "extrusion",
   "model_type": "3D_frame",
-  "unit": "meter",
+  "unit": "millimeter",
   "generate_time": "05/01/2019 23:28:52",
   "dimension": 3,
   "node_num": 40,

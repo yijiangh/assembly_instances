@@ -2,7 +2,7 @@
   "model_name": "david",
   "assembly_type": "extrusion",
   "model_type": "3D_frame",
-  "unit": "meter",
+  "unit": "millimeter",
   "generate_time": "05/01/2019 23:33:50",
   "dimension": 3,
   "node_num": 162,
@@ -3987,7 +3987,7 @@
         117
       ],
       "element_id": 276,
-      "layer_id": 0
+      "layer_id": 0,
     },
     {
       "end_node_ids": [

@@ -2,7 +2,7 @@
   "model_name": "fertility",
   "assembly_type": "extrusion",
   "model_type": "3D_frame",
-  "unit": "meter",
+  "unit": "millimeter",
   "generate_time": "05/01/2019 22:26:20",
   "dimension": 3,
   "node_num": 249,

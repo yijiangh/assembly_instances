@@ -2,7 +2,7 @@
   "model_name": "duck",
   "assembly_type": "extrusion",
   "model_type": "3D_frame",
-  "unit": "meter",
+  "unit": "millimeter",
   "generate_time": "05/01/2019 22:17:37",
   "dimension": 3,
   "node_num": 305,
