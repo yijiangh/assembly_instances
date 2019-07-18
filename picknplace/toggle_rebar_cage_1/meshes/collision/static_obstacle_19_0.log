@@ -1,0 +1,75 @@
++ Parameters
+	 input                                       C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_19_0.obj
+	 resolution                                  500000
+	 max. concavity                              0.001
+	 plane down-sampling                         4
+	 convex-hull down-sampling                   4
+	 alpha                                       0.05
+	 beta                                        0.05
+	 maxhulls                                    1024
+	 pca                                         0
+	 mode                                        0
+	 max. vertices per convex-hull               64
+	 min. volume to add vertices to convex-hulls 0.0001
+	 convex-hull approximation                   1
+	 OpenCL acceleration                         1
+	 OpenCL platform ID                          0
+	 OpenCL device ID                            0
+	 output                                      C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_19_0.obj
+	 log                                         C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_19_0.log
++ Load mesh
++ Voxelization
+	 dim = 64	-> 85852 voxels
+	 dim = 114	-> 467684 voxels
+	 dim = 117	-> 504199 voxels
+	 time 0.250059s
++ Compute primitive set
+	 # primitives               504199
+	 # inside surface           443300
+	 # on surface               60899
+	 time 0.0171773s
++ Approximate Convex Decomposition
+	 Subdivision level 1
+	 -> Part[0] C  = 0.246009, E  = 0.0919805, VS = 60899, VI = 443300
+		 [Regular sampling] Number of clipping planes 84
+
+			 Best  0042 T=0.061942 C=0.061743 B=0.000199 S=0.000000 (0.0, 1.0, 0.0, 2970.481)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0002 T=0.063308 C=0.063295 B=0.000012 S=0.000000 (0.0, 1.0, 0.0, 2972.213)
+
+	 Subdivision level 2
+	 -> Part[0] C  = 0.0319517, E  = 0.0498198, VS = 32985, VI = 218779
+	 -> Part[1] C  = 0.0330816, E  = 0.0498803, VS = 33025, VI = 219410
++ Generate 2 convex-hulls 
+	 time 1.29754s
++ Merge Convex Hulls
+	 time 0.0004716s
++ Simplify 2 convex-hulls 
+		 Simplify CH[00000] 132 V, 260 T
+		 Simplify CH[00001] 139 V, 274 T
+	 time 0.0046302s
++ Parameters
+	 input                                       C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_19_0.obj
+	 resolution                                  500000
+	 max. concavity                              0.001
+	 plane down-sampling                         4
+	 convex-hull down-sampling                   4
+	 alpha                                       0.05
+	 beta                                        0.05
+	 maxhulls                                    1024
+	 pca                                         0
+	 mode                                        0
+	 max. vertices per convex-hull               64
+	 min. volume to add vertices to convex-hulls 0.0001
+	 convex-hull approximation                   1
+	 OpenCL acceleration                         1
+	 OpenCL platform ID                          0
+	 OpenCL device ID                            0
+	 output                                      C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_19_0.obj
+	 log                                         C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_19_0.log
++ Load mesh
++ Generate output: 2 convex-hulls 
+	 CH[00000] 36 V, 68 T
+	 CH[00001] 41 V, 78 T

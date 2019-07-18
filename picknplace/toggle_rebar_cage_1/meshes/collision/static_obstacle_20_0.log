@@ -1,0 +1,188 @@
++ Parameters
+	 input                                       C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_20_0.obj
+	 resolution                                  500000
+	 max. concavity                              0.001
+	 plane down-sampling                         4
+	 convex-hull down-sampling                   4
+	 alpha                                       0.05
+	 beta                                        0.05
+	 maxhulls                                    1024
+	 pca                                         0
+	 mode                                        0
+	 max. vertices per convex-hull               64
+	 min. volume to add vertices to convex-hulls 0.0001
+	 convex-hull approximation                   1
+	 OpenCL acceleration                         1
+	 OpenCL platform ID                          0
+	 OpenCL device ID                            0
+	 output                                      C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_20_0.obj
+	 log                                         C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_20_0.log
++ Load mesh
++ Voxelization
+	 dim = 64	-> 660 voxels
+	 dim = 571	-> 222566 voxels
+	 dim = 746	-> 492350 voxels
+	 time 0.148135s
++ Compute primitive set
+	 # primitives               492350
+	 # inside surface           405444
+	 # on surface               86906
+	 time 0.0160983s
++ Approximate Convex Decomposition
+	 Subdivision level 1
+	 -> Part[0] C  = 0.285411, E  = 0.127395, VS = 86906, VI = 405444
+		 [Regular sampling] Number of clipping planes 204
+
+			 Best  0132 T=0.250561 C=0.233635 B=0.004323 S=0.012603 (1.0, 0.0, 0.0, -3343.616)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0005 T=0.274322 C=0.257381 B=0.004338 S=0.012603 (1.0, 0.0, 0.0, -3345.200)
+
+	 Subdivision level 2
+	 -> Part[0] C  = 0.200186, E  = 0.0911847, VS = 62204, VI = 288696
+		 [Regular sampling] Number of clipping planes 150
+
+			 Best  0039 T=0.167104 C=0.156076 B=0.002162 S=0.008867 (1.0, 0.0, 0.0, -2754.408)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0000 T=0.182135 C=0.171059 B=0.002210 S=0.008867 (1.0, 0.0, 0.0, -2748.073)
+
+	 -> Part[1] C  = 0.0586275, E  = 0.0370198, VS = 25254, VI = 116196
+		 [Regular sampling] Number of clipping planes 71
+
+			 Best  0016 T=0.028791 C=0.025984 B=0.000238 S=0.002569 (1.0, 0.0, 0.0, -3448.153)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0004 T=0.033430 C=0.030623 B=0.000238 S=0.002569 (1.0, 0.0, 0.0, -3448.153)
+
+	 Subdivision level 3
+	 -> Part[0] C  = 0.0303054, E  = 0.0261545, VS = 17842, VI = 81558
+		 [Regular sampling] Number of clipping planes 56
+
+			 Best  0022 T=0.004436 C=0.003084 B=0.000032 S=0.001320 (1.0, 0.0, 0.0, -2646.704)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0003 T=0.004861 C=0.003510 B=0.000031 S=0.001320 (1.0, 0.0, 0.0, -2645.120)
+
+	 -> Part[1] C  = 0.143224, E  = 0.0658393, VS = 44914, VI = 206586
+		 [Regular sampling] Number of clipping planes 112
+
+			 Best  0015 T=0.112045 C=0.103903 B=0.001755 S=0.006387 (1.0, 0.0, 0.0, -2844.690)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0005 T=0.122470 C=0.114335 B=0.001747 S=0.006387 (1.0, 0.0, 0.0, -2846.274)
+
+	 -> Part[2] C  = 0.00178931, E  = 0.0118914, VS = 8112, VI = 34638
+	 -> Part[3] C  = 0.0302096, E  = 0.0259376, VS = 17694, VI = 81006
+		 [Regular sampling] Number of clipping planes 55
+
+			 Best  0015 T=0.003744 C=0.002393 B=0.000035 S=0.001315 (1.0, 0.0, 0.0, -3544.771)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0006 T=0.004562 C=0.003214 B=0.000032 S=0.001315 (1.0, 0.0, 0.0, -3547.938)
+
+	 Subdivision level 4
+	 -> Part[0] C  = 0.00212014, E  = 0.0150724, VS = 10282, VI = 46368
+	 -> Part[1] C  = 0.00178931, E  = 0.0118914, VS = 8112, VI = 34638
+	 -> Part[2] C  = 0.00167583, E  = 0.0115659, VS = 7890, VI = 33810
+	 -> Part[3] C  = 0.114944, E  = 0.0550826, VS = 37576, VI = 172224
+		 [Regular sampling] Number of clipping planes 96
+
+			 Best  0063 T=0.081023 C=0.074838 B=0.001057 S=0.005128 (1.0, 0.0, 0.0, -3246.999)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0003 T=0.092371 C=0.086192 B=0.001051 S=0.005128 (1.0, 0.0, 0.0, -3245.415)
+
+	 -> Part[4] C  = 0.0016902, E  = 0.0116744, VS = 7964, VI = 34086
+	 -> Part[5] C  = 0.00210921, E  = 0.0150724, VS = 10282, VI = 46368
+	 Subdivision level 5
+	 -> Part[0] C  = 0.0866231, E  = 0.0442349, VS = 30176, VI = 137724
+		 [Regular sampling] Number of clipping planes 80
+
+			 Best  0031 T=0.055567 C=0.051698 B=0.000005 S=0.003864 (1.0, 0.0, 0.0, -3044.261)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0005 T=0.062164 C=0.058300 B=0.000000 S=0.003864 (1.0, 0.0, 0.0, -3045.844)
+
+	 -> Part[1] C  = 0.00170707, E  = 0.0116568, VS = 7952, VI = 33948
+	 Subdivision level 6
+	 -> Part[0] C  = 0.0300032, E  = 0.0225221, VS = 15364, VI = 68586
+		 [Regular sampling] Number of clipping planes 49
+
+			 Best  0015 T=0.004397 C=0.003055 B=0.000004 S=0.001338 (1.0, 0.0, 0.0, -2942.891)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0006 T=0.004336 C=0.002997 B=0.000000 S=0.001338 (1.0, 0.0, 0.0, -2946.059)
+
+	 -> Part[1] C  = 0.0300013, E  = 0.0225221, VS = 15364, VI = 68586
+		 [Regular sampling] Number of clipping planes 49
+
+			 Best  0016 T=0.004676 C=0.003335 B=0.000003 S=0.001339 (1.0, 0.0, 0.0, -3148.798)
+
+		 [Refining] Number of clipping planes 9
+
+			 Best  0002 T=0.004432 C=0.003093 B=0.000000 S=0.001339 (1.0, 0.0, 0.0, -3145.630)
+
+	 Subdivision level 7
+	 -> Part[0] C  = 0.00171068, E  = 0.0116568, VS = 7952, VI = 33948
+	 -> Part[1] C  = 0.00168594, E  = 0.0116744, VS = 7964, VI = 34086
+	 -> Part[2] C  = 0.0017028, E  = 0.0116568, VS = 7952, VI = 33948
+	 -> Part[3] C  = 0.00168676, E  = 0.0116744, VS = 7964, VI = 34086
++ Generate 11 convex-hulls 
+	 time 9.84006s
++ Merge Convex Hulls
+	 time 0.003203s
++ Simplify 11 convex-hulls 
+		 Simplify CH[00000] 22 V, 40 T
+		 Simplify CH[00001] 26 V, 48 T
+		 Simplify CH[00002] 22 V, 40 T
+		 Simplify CH[00003] 18 V, 32 T
+		 Simplify CH[00004] 20 V, 36 T
+		 Simplify CH[00005] 24 V, 44 T
+		 Simplify CH[00006] 20 V, 36 T
+		 Simplify CH[00007] 18 V, 32 T
+		 Simplify CH[00008] 20 V, 36 T
+		 Simplify CH[00009] 20 V, 36 T
+		 Simplify CH[00010] 20 V, 36 T
+	 time 0.0018377s
++ Parameters
+	 input                                       C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_20_0.obj
+	 resolution                                  500000
+	 max. concavity                              0.001
+	 plane down-sampling                         4
+	 convex-hull down-sampling                   4
+	 alpha                                       0.05
+	 beta                                        0.05
+	 maxhulls                                    1024
+	 pca                                         0
+	 mode                                        0
+	 max. vertices per convex-hull               64
+	 min. volume to add vertices to convex-hulls 0.0001
+	 convex-hull approximation                   1
+	 OpenCL acceleration                         1
+	 OpenCL platform ID                          0
+	 OpenCL device ID                            0
+	 output                                      C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_20_0.obj
+	 log                                         C:\Users\harry\Documents\pb-construction\pychoreo\assembly_instances\picknplace\toggle_rebar_cage_1\meshes\collision\static_obstacle_20_0.log
++ Load mesh
++ Generate output: 11 convex-hulls 
+	 CH[00000] 12 V, 20 T
+	 CH[00001] 14 V, 24 T
+	 CH[00002] 12 V, 20 T
+	 CH[00003] 12 V, 20 T
+	 CH[00004] 12 V, 20 T
+	 CH[00005] 14 V, 24 T
+	 CH[00006] 12 V, 20 T
+	 CH[00007] 12 V, 20 T
+	 CH[00008] 12 V, 20 T
+	 CH[00009] 12 V, 20 T
+	 CH[00010] 12 V, 20 T
