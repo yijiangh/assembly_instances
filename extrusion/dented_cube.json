@@ -3,10 +3,41 @@
   "assembly_type": "extrusion",
   "model_type": "3D_truss",
   "unit": "millimeter",
-  "generate_time": "07/24/2019 23:24:33",
+  "generate_time": "07/24/2019 23:50:50",
   "dimension": 3,
   "node_num": 168,
   "element_num": 332,
+  "base_frame_in_rob_base": {
+    "Origin": {
+      "X": 600.0,
+      "Y": 0.0,
+      "Z": 23.5
+    },
+    "OriginX": 600.0,
+    "OriginY": 0.0,
+    "OriginZ": 23.5,
+    "XAxis": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "YAxis": {
+      "X": 0.0,
+      "Y": 1.0,
+      "Z": 0.0
+    },
+    "ZAxis": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 1.0
+    },
+    "Normal": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 1.0
+    },
+    "IsValid": true
+  },
   "material_properties": {
     "material_name": "PLA-0",
     "youngs_modulus": 350.0,
