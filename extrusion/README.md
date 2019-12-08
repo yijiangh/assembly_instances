@@ -11,6 +11,9 @@ The models in this section come from the following papers:
 ### topopt-100
 ![topopt-100](images/topopt-100.png)
 
+### topopt-101_tiny
+![topopt-101](images/topopt-101_tiny.png)
+
 ### topopt-205
 ![topopt-205](images/topopt-205.png)
 
