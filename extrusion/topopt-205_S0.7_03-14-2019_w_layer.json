@@ -7,13 +7,13 @@
   "element_num": 164,
   "base_frame_in_rob_base": {
     "Origin": {
-      "X": 600.0,
+      "X": 700.0,
       "Y": 0.0,
-      "Z": 23.5
+      "Z": 25
     },
-    "OriginX": 600.0,
+    "OriginX": 700.0,
     "OriginY": 0.0,
-    "OriginZ": 23.5,
+    "OriginZ": 25,
     "XAxis": {
       "X": 1.0,
       "Y": 0.0,
