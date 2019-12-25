@@ -3,17 +3,17 @@
   "assembly_type": "extrusion",
   "model_type": "3D_frame",
   "unit": "millimeter",
-  "generate_time": "12/22/2019 2:21:36 PM",
+  "generate_time": "12/24/2019 10:00:18 PM",
   "dimension": 3,
-  "node_num": 139,
-  "element_num": 281,
+  "node_num": 143,
+  "element_num": 285,
   "base_frame_in_rob_base": {
     "Origin": {
-      "X": 600.0,
+      "X": 650.0,
       "Y": 100.0,
       "Z": 25.0
     },
-    "OriginX": 600.0,
+    "OriginX": 650.0,
     "OriginY": 100.0,
     "OriginZ": 25.0,
     "XAxis": {
@@ -1463,6 +1463,74 @@
         "Z": 0.0
       },
       "node_id": 138,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": 28.99685925,
+        "Y": -68.921638652261464,
+        "Z": 0.0
+      },
+      "node_id": 139,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": -18.493380000000013,
+        "Y": 5.2255228593432914,
+        "Z": 0.0
+      },
+      "node_id": 140,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": 46.577767499999993,
+        "Y": 36.35895397746463,
+        "Z": 0.0
+      },
+      "node_id": 141,
+      "is_grounded": 1,
+      "fixities": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "point": {
+        "X": 0.94293449999998735,
+        "Y": 107.8156870435011,
+        "Z": 0.0
+      },
+      "node_id": 142,
       "is_grounded": 1,
       "fixities": [
         1,
@@ -3721,6 +3789,38 @@
         138
       ],
       "element_id": 280,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        118,
+        139
+      ],
+      "element_id": 281,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        7,
+        140
+      ],
+      "element_id": 282,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        96,
+        141
+      ],
+      "element_id": 283,
+      "layer_id": 0
+    },
+    {
+      "end_node_ids": [
+        34,
+        142
+      ],
+      "element_id": 284,
       "layer_id": 0
     }
   ]
