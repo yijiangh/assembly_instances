@@ -53,6 +53,10 @@ The models in this section come from the following paper:
 This model comes from one of the examples of compas_fea: [webpage](https://compas-dev.github.io/compas_fea/examples/beam_tree_rhino.html)
 ![beam_tree](images/compas_fea_beam_tree_M.png)
 
+### compas_fea beam tree
+This model comes from one of the examples of compas_fea: [webpage](https://compas-dev.github.io/compas_fea/examples/truss_frame_rhino.html)
+![truss_frame](images/compas_fea_truss_frame.png)
+
 ### robarch tree
 This model comes from Gramazio&Kohler research's RobArch workshop in 2018: [webpage](http://gramaziokohler.arch.ethz.ch/web/e/forschung/311.html)
 ![robarch_tree](images/robarch_tree_M.png)
@@ -94,8 +98,12 @@ The quad meshes are generated using Wenzel Jacob's [instant-meshes](https://gith
 ### klein_bottle
 ![klein_bottle.PNG](images/klein_bottle.PNG)
 
-### tri-foil knot
+### tre-foil knot
 ![trifoilknot.PNG](images/trifoilknot.PNG)
+
+### tre-foil knot S1.35
+Notice that the orientation of the model is changed.
+![tre_foil_knot_S1.35.PNG](images/tre_foil_knot_S1.35.PNG)
 
 ### semi_sphere
 ![semi_sphere.PNG](images/semi_sphere.PNG)
@@ -117,3 +125,12 @@ The following models are used to tune the fabrication parameters or software uni
 ### extreme_beam_test
 ![extreme_beam_test](images/extreme_beam_test.png)
 
+### klein_bottle_trail
+![klein_bottle_trail](images/klein_bottle_trail.png)
+
+-----
+## Models to be added
+### Hex meshes
+e.g. from [Justin's paper](http://people.csail.mit.edu/jsolomon/assets/frames.pdf)
+
+![hex_meshes](images/TODO_hex_meshes.png)
