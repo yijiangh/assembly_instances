@@ -9,11 +9,11 @@
   "element_num": 285,
   "base_frame_in_rob_base": {
     "Origin": {
-      "X": 650.0,
+      "X": 600.0,
       "Y": 100.0,
       "Z": 25.0
     },
-    "OriginX": 650.0,
+    "OriginX": 600.0,
     "OriginY": 100.0,
     "OriginZ": 25.0,
     "XAxis": {
