@@ -9,11 +9,11 @@
     "Origin": {
       "X": 600.0,
       "Y": 0.0,
-      "Z": 23.5
+      "Z": 25.0
     },
     "OriginX": 600.0,
     "OriginY": 0.0,
-    "OriginZ": 23.5,
+    "OriginZ": 25.0,
     "XAxis": {
       "X": 1.0,
       "Y": 0.0,
@@ -62,7 +62,7 @@
     "Iz": 0.00039760782021995816,
     "Iz_unit": "centimeter^4",
     "_Iz_note": "0.25 * pi * r^4"
-  }, 
+  },
   "node_list": [
     {
       "point": {
