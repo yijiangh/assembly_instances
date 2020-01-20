@@ -1,3 +1,41 @@
-*.DS_Store
-*~
+build/
+dist/
+_build/
+_generate/
+*.so
+*.py[cod]
+*.egg-info
 
+# Clion stuff
+.idea/
+cmake-build-debug/
+
+# Jupyter check point
+**/.ipynb_checkpoints/
+
+# matlab temps
+*.asv
+*.m~
+
+*.DS_Store
+
+# GSA lock files
+*.gwb.lok
+
+# in master branch, ignore validation files
+src/stiffness_checker/test/validation/*
+
+# ctags
+.tags
+.tags1
+
+# abaqus temp
+**/compas_fea-temp*
+**/conmech-temp*
+abaqus.rpy
+
+.ropeproject
+.cache
+.tox
+
+.vscode

@@ -1,7 +1,7 @@
 {
   "model_name": "dented_cube",
   "assembly_type": "extrusion",
-  "model_type": "3D_truss",
+  "model_type": "3D_frame",
   "unit": "millimeter",
   "generate_time": "07/24/2019 23:50:50",
   "dimension": 3,
