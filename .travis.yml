@@ -1,0 +1,19 @@
+# * assembly_instances
+branches:
+  only:
+    - master
+#   except:
+
+language: python
+
+python:
+  - "2.7"
+  - "3.6"
+
+# before_install:
+# - pip install Cython --install-option="--no-cython-compile"
+install:
+- pip install pyconmech>=0.3.1
+
+script:
+  - pytest -s
