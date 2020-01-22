@@ -8,7 +8,7 @@ assembly_instances
     :target: https://github.com/yijiangh/assembly_instances/blob/master/LICENSE
     :alt: License MIT
 
-.. image:: https://travis-ci.com/yijiangh/assembly_instances.svg?branch=dev
+.. image:: https://travis-ci.com/yijiangh/assembly_instances.svg?branch=master
     :target: https://travis-ci.com/yijiangh/assembly_instances
     :alt: Travis CI
 
